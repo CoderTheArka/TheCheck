@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(yellow 0%, pink 100%);
+}
+.menu{
+    margin-top:0px;
+    width: 100% ;
+    background: none;
+    list-style: none;
+    position:fixed;
+    top:0px;
+    cursor: pointer;
+    z-index: 10;
+    color: black;
+    }
+    .links{
+        display: inline;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size:20px;
+        font-family: Rancho;
+        
+    }
+    .links:hover{
+      font-size: 30px;  
+      
+    
+    }
+    .movie_head{
+        font-size: 20px;
+        padding: 6px 22px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .movie_head i{
+        float: right;
+    }
+    .achievement_text span{
+        color: orange;
+    }
